@@ -8,7 +8,7 @@ var Experiment = require('../models/Experiment');
 var Path = require('../models/Path');
 var Property = require('../models/Property');
 
-mongoose.connect('mongodb://localhost/cell_tracking_framework');
+mongoose.connect('mongodb://127.0.0.1/cell_tracking_framework');
 
 router.get('/clear/database', function(req, res) {
     Experiment.remove({}, function(err) { 

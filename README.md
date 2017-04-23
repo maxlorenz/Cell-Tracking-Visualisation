@@ -9,6 +9,12 @@
 * Download and install the latest version of [Node.js](https://nodejs.org/en/).
 * Get [MongoDB](https://www.mongodb.org/) 
 
+Alternatively, you can run mongodb with docker:
+
+```sh
+docker run -p 27017:27017 --name cell-mongodb --rm -d mongo
+```
+
 ### Installation 
 
 * Clone this repository
